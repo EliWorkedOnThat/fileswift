@@ -487,8 +487,23 @@ def search():
     else:
         print(f"No matches found for '{search_target}'.")
 
+def folder_ascii_art():
+    print("""
+                                                                    :::::::::: ::::::::::: :::        ::::::::::          ::::::::  :::       ::: ::::::::::: :::::::::: :::::::::::    
+                                                                   :+:            :+:     :+:        :+:                :+:    :+: :+:       :+:     :+:     :+:            :+:         
+                                                                  +:+            +:+     +:+        +:+                +:+        +:+       +:+     +:+     +:+            +:+          
+   +#++:++#++:++                           +#++:++#++:++         :#::+::#       +#+     +#+        +#++:++#           +#++:++#++ +#+  +:+  +#+     +#+     :#::+::#       +#+           
+                                                                +#+            +#+     +#+        +#+                       +#+ +#+ +#+#+ +#+     +#+     +#+            +#+            
+                                                               #+#            #+#     #+#        #+#                #+#    #+#  #+#+# #+#+#      #+#     #+#            #+#             
+                      ##########                              ###        ########### ########## ##########          ########    ###   ###   ########### ###            ###              
+    """)
+
+
 # Main function with user menu
 def main():
+
+    folder_ascii_art()
+
     print("Welcome to FileSwift, a tool designed to simplify Linux directory management! (Use sudo in order to ensure all functionalities work correctly :D)")
     print()
     while True:
