@@ -35,25 +35,27 @@ FileSwift is a command-line tool designed to simplify file and directory managem
 
 1. Clone the repository:
 
-   ```bash
-   git clone https://github.com/EliWorkedOnThat/FileSwift.git
+    ```bash
+    git clone https://github.com/EliWorkedOnThat/FileSwift.git
+    ```   
+2. Navigate to the project directory:
 
+    ```bash
+    cd FileSwift
+    ```
 
-2.Navigate to the project directory:
+3. Make the script executable:
 
-cd FileSwift
-
-3.Make the script executable:
-
-chmod +x fileswift.py
+    ```bash
+    chmod +x fileswift.py
+    ```
 
 Run the tool using the following command:
 
+```bash
 ./fileswift.py
+```
 
-
-Contribution
+### Contribution
 
 If you'd like to contribute to FileSwift, please open an issue or submit a pull request. Your feedback and contributions are welcome!
-
-
